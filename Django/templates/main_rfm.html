@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urinary Test Analysis</title>
+</head>
+<body>
+    <h1>Welcome to Tim's online Titanic Analysis</h1>
+    <h2>Please enter the passenger's details:</h2>
+    <hr>
+    <form action="result" method="GET">
+        <form action="result">
+            Age: <input type="number" name="age" required><br>
+            
+            Gender:
+            <select name="gender" required>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select><br>
+            
+            Ticket Class:
+            <select name="pclass" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+            
+            Siblings/Spouse onboard: <input type="number" name="siblings_spouse" required><br>
+            
+            Parents/Children onboard: <input type="number" name="parents_children" required><br>
+
+            Fare: <input type="number" name="fare" step="0.01" required><br>
+            
+            Port of Embarkation:
+            <select name="embarkation_port" required>
+                <option value="Cherbourg">Cherbourg</option>
+                <option value="Queenstown">Queenstown</option>
+                <option value="Southampton">Southampton</option>
+            </select><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urinary Test Analysis</title>
+</head>
+<body>
+    <h1>Welcome to Tim's online Urinary Test Analysis</h1>
+    <h2>Please enter your details:</h2>
+    <hr>
+    <form action="result" method="GET">
+        Age: <input type="number" name="age" required><br>
+        Gender:
+        <select name="gender" required>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+        </select><br>
+        Blood Pressure:
+        <select name="blood_pressure" required>
+            <option value="HIGH">High</option>
+            <option value="LOW">Low</option>
+            <option value="NORMAL">Normal</option>
+        </select><br>
+        Cholesterol:
+        <select name="cholesterol" required>
+            <option value="HIGH">High</option>
+            <option value="NORMAL">Normal</option>
+        </select><br>
+        Sodium to Potassium Ratio: <input type="number" name="na_to_k" step="0.001" required><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

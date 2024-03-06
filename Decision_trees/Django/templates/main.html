@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urinary Test Analysis</title>
+</head>
+<body>
+    <h1>Welcome to the our online Urinary Test Analysis</h1>
+    <h2>Please enter your details:</h2>
+    <hr>
+    <form action = 'result'>
+        Age: <input type="number" name="age" required><br>
+        Gender:
+        <select name="gender" required>
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+        </select><br>
+        Colour:
+        <select name="colour" required>
+            <option value="LIGHT YELLOW">LIGHT YELLOW</option>
+            <option value="BROWN">BROWN</option>
+            <option value="DARK YELLOW">DARK YELLOW</option>
+            <option value="AMBER">AMBER</option>
+            <option value="YELLOW">YELLOW</option>
+            <option value="STRAW">STRAW</option>
+        </select><br>
+        Transparency:
+        <select name="transparency" required>
+            <option value="CLEAR">CLEAR</option>
+            <option value="SLIGHTLY HAZY">SLIGHTLY HAZY</option>
+            <option value="CLOUDY">CLOUDY</option>
+            <option value="HAZY">HAZY</option>
+            <option value="TURBID">TURBID</option>
+        </select><br>
+        Glucose:
+        <select name="glucose" required>
+            <option value="NEGATIVE">NEGATIVE</option>
+            <option value="1+">1+</option>
+            <option value="2+">2+</option>
+            <option value="3+">3+</option>
+            <option value="TRACE">TRACE</option>
+            <option value="4+">4+</option>
+        </select><br>
+        Protein:
+        <select name="protein" required>
+            <option value="NEGATIVE">NEGATIVE</option>
+            <option value="1+">1+</option>
+            <option value="2+">2+</option>
+            <option value="3+">3+</option>
+            <option value="TRACE">TRACE</option>
+        </select><br>
+        pH: <input type="number" name="ph" step="0.1" required><br>
+        Specific Gravity: <input type="number" name="specific_gravity" step="0.001" required><br>
+        Epithelial Cells:
+        <select name="epithelial_cells" required>
+            <option value="OCCASIONAL">OCCASIONAL</option>
+            <option value="RARE">RARE</option>
+            <option value="PLENTY">PLENTY</option>
+            <option value="MODERATE">MODERATE</option>
+            <option value="FEW">FEW</option>
+            <option value="LOADED">LOADED</option>
+        </select><br>
+        Mucous Threads:
+        <select name="mucous_threads" required>
+            <option value="OCCASIONAL">OCCASIONAL</option>
+            <option value="RARE">RARE</option>
+            <option value="PLENTY">PLENTY</option>
+            <option value="MODERATE">MODERATE</option>
+            <option value="NONE SEEN">NONE SEEN</option>
+            <option value="FEW">FEW</option>
+        </select><br>
+        Amorphous Urates:
+        <select name="amorphous_urates" required>
+            <option value="OCCASIONAL">OCCASIONAL</option>
+            <option value="RARE">RARE</option>
+            <option value="PLENTY">PLENTY</option>
+            <option value="NONE SEEN">NONE SEEN</option>
+            <option value="FEW">FEW</option>
+        </select><br>
+        Bacteria:
+        <select name="bacteria" required>
+            <option value="OCCASIONAL">OCCASIONAL</option>
+            <option value="RARE">RARE</option>
+            <option value="PLENTY">PLENTY</option>
+            <option value="MODERATE">MODERATE</option>
+            <option value="LOADED">LOADED</option>
+            <option value="FEW">FEW</option>
+        </select><br>
+        <input type="submit" value="Submit">
+
+        
+    </form>
+</body>
+</html>
