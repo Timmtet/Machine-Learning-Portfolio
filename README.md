@@ -4,7 +4,7 @@ Welcome to my Machine Learning Portfolio! This repository is a collection of pro
 
 ## Overview
 
-This repository is organized into folders, where each of the folders is dedicated to a specific supervised or unsupervised learning algorithm. These projects cover a wise range of machine learning techniques, with the aim of providing insights into different approaches and methodologies.
+This repository is organized into folders, where each of the folders is dedicated to a specific supervised or unsupervised learning algorithm. These projects cover a wide range of machine learning techniques, with the aim of providing insights into different approaches and methodologies.
 
 ## Web Applications
 
